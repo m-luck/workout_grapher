@@ -1,10 +1,12 @@
 from matplotlib import pyplot as plt
 from cycler import cycler
 import numpy as np
-path = 'dataFeb'
+path = 'data'
 file = open(path, "r")
 exercises = {}
+graph = False
 numCol = 5
+all_names = []
 def parse_line(line):
     '''
     line:a string from the data file
@@ -17,6 +19,7 @@ def parse_line(line):
 for line in file:
     exercise_name, exercise_stats = parse_line(line)
     exercises[exercise_name] = exercise_stats
+    all_names.append(exercise_name)
 f, axarr = plt.subplots(1+int(len(exercises)/numCol), numCol, sharex=True)
 f.suptitle('Exercises')
 subInd = 0
@@ -32,6 +35,11 @@ def plot(name, ind,weight,reps, cind, subInd):
     axarr[int(subInd/numCol), col].plot(ind,weight,color=colors[cind],alpha=0.2)
 colors = ['navajowhite','goldenrod','chartreuse','aquamarine','slateblue','darkviolet']
 cind = 0
+all_weights = []
+all_reps = []
+single_names = []
+single_weights = []
+single_reps = []
 for type in exercises: # Iterate through exercises
     weights = []
     reps = []
@@ -47,9 +55,26 @@ for type in exercises: # Iterate through exercises
             reps.append(rep)
             set_inds.append(set_ind)
             set_ind += 1
+            single_names.append(type)
+            single_weights.append(weight)
+            single_reps.append(rep)
+    all_weights.append([*weights])
+    all_reps.append([*reps])
     plot(type, set_inds, weights, reps, cind, subInd)
     if cind == len(colors)-1:
         cind = 0
     cind += 1
     subInd += 1
-plt.show()
+if graph==True: plt.show()
+
+import numpy
+import pandas as pd
+# Uncomment here to output a csv for data processing
+print("W")
+print(*all_weights, sep="\n")
+print("R")
+print(*all_reps, sep="\n")
+print("N")
+print(*all_names, sep="\n")
+df = pd.DataFrame({"n" : single_names, "w" : single_weights, "r" : single_reps})
+df.to_csv("out.csv", index=False)
