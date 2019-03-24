@@ -8,6 +8,9 @@ Bench,95.0,8.0
 Bench,95.0,9.0
 Bench,95.0,8.0
 Bench,95.0,7.0
+Bench,100.0,5.0
+Bench,100.0,7.0
+Bench,70.0,14.0
 Bicep curl,45.0,7.0
 Bicep curl,50.0,5.0
 Bicep curl,55.0,5.0
@@ -22,6 +25,11 @@ Bicep curl,55.0,5.0
 Bicep curl,30.0,4.0
 Bicep curl,50.0,8.0
 Bicep curl,45.0,10.0
+Bicep curl,47.5,6.0
+Bicep curl,47.5,5.0
+Bicep curl,47.5,6.0
+Bicep curl,30.0,20.0
+Bicep curl,35.0,20.0
 Bicep hammers,35.0,10.0
 Bicep hammers,40.0,2.0
 Bicep hammers,32.5,4.0
@@ -46,6 +54,11 @@ Triceps,150.0,8.0
 Triceps,155.0,5.0
 Triceps,160.0,5.0
 Triceps,160.0,7.0
+Triceps,160.0,7.0
+Triceps,160.0,8.0
+Triceps,160.0,9.0
+Triceps,85.0,20.0
+Triceps,90.0,20.0
 Forearms,35.0,10.0
 Forearms,40.0,7.0
 Forearms,32.5,8.0
@@ -70,6 +83,8 @@ Abdomen curl,130.0,5.0
 Abdomen curl,130.0,5.0
 Abdomen curl,130.0,5.0
 Abdomen curl,130.0,7.0
+Abdomen curl,100.0,10.0
+Abdomen curl,70.0,40.0
 Abdomen twist,130.0,7.0
 Abdomen twist,135.0,7.0
 Abdomen twist,135.0,7.0
@@ -82,6 +97,10 @@ Abdomen twist,145.0,8.0
 Abdomen twist,145.0,4.0
 Abdomen twist,145.0,5.0
 Abdomen twist,145.0,8.0
+Abdomen twist,145.0,8.0
+Abdomen twist,145.0,6.0
+Abdomen twist,85.0,20.0
+Abdomen twist,90.0,20.0
 Pull-up palm front,160.0,4.0
 Pull-up palm front,100.0,7.0
 Pull-up palm front,100.0,8.0
@@ -95,6 +114,10 @@ Pull-up palm front,135.0,7.0
 Pull-up palm front,135.0,6.0
 Pull-up palm front,135.0,5.0
 Pull-up palm front,145.0,4.0
+Pull-up palm front,145.0,5.0
+Pull-up palm front,145.0,5.0
+Pull-up palm front,120.0,8.0
+Pull-up palm front,55.0,14.0
 Pull-up palm back,160.0,1.0
 Pull-up hammer,160.0,1.0
 Row,95.0,10.0
@@ -111,6 +134,10 @@ Row,135.0,6.0
 Row,140.0,5.0
 Row,140.0,6.0
 Row,140.0,6.0
+Row,145.0,5.0
+Row,145.0,6.0
+Row,145.0,7.0
+Row,70.0,20.0
 LatRaise,85.0,10.0
 LatRaise,90.0,7.0
 LatRaise,85.0,4.0
@@ -127,6 +154,10 @@ LatRaise,95.0,6.0
 LatRaise,95.0,6.0
 LatRaise,95.0,5.0
 LatRaise,95.0,6.0
+LatRaise,95.0,6.0
+LatRaise,95.0,6.0
+LatRaise,95.0,4.0
+LatRaise,50.0,10.0
 Calves,210.0,10.0
 Calves,215.0,10.0
 Calves,220.0,10.0
@@ -136,6 +167,9 @@ Calves,200.0,10.0
 Calves,210.0,6.0
 Calves,210.0,10.0
 Calves,210.0,8.0
+Calves,215.0,10.0
+Calves,215.0,10.0
+Calves,120.0,20.0
 Back flex,95.0,10.0
 Back flex,100.0,7.0
 Back flex,100.0,10.0
@@ -148,6 +182,10 @@ Back flex,125.0,7.0
 Back flex,130.0,6.0
 Back flex,135.0,5.0
 Back flex,130.0,5.0
+Back flex,100.0,10.0
+Back flex,90.0,10.0
+Back flex,40.0,40.0
+Back flex,40.0,80.0
 Shoulders,85.0,7.0
 Shoulders,70.0,7.0
 Shoulders,70.0,7.0
@@ -162,6 +200,10 @@ Shoulders,85.0,6.0
 Shoulders,90.0,4.0
 Shoulders,90.0,5.0
 Shoulders,90.0,6.0
+Shoulders,90.0,7.0
+Shoulders,90.0,7.0
+Shoulders,80.0,8.0
+Shoulders,75.0,12.0
 SeatedLegCurl,65.0,10.0
 SeatedLegCurl,70.0,7.0
 SeatedLegCurl,70.0,7.0
@@ -174,6 +216,8 @@ SeatedLegCurl,85.0,9.0
 SeatedLegCurl,90.0,8.0
 SeatedLegCurl,95.0,6.0
 SeatedLegCurl,95.0,6.0
+SeatedLegCurl,95.0,5.0
+SeatedLegCurl,80.0,10.0
 Otherleg,75.0,7.0
 Otherleg,80.0,7.0
 Otherleg,85.0,7.0
@@ -187,6 +231,7 @@ Otherleg,90.0,6.0
 Otherleg,90.0,8.0
 Otherleg,95.0,10.0
 Otherleg,95.0,10.0
+Otherleg,90.0,12.0
 PecFly,80.0,6.0
 PecFly,80.0,6.0
 DeltFly,50.0,8.0

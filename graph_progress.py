@@ -4,7 +4,7 @@ import numpy as np
 path = 'data'
 file = open(path, "r")
 exercises = {}
-graph = False
+graph = True
 numCol = 5
 all_names = []
 def parse_line(line):
@@ -28,7 +28,7 @@ def plot(name, ind,weight,reps, cind, subInd):
     axarr[int(subInd/numCol), col].set_title(name)
     thicc = []
     for i in range(0,len(reps)):
-        thicc.append(reps[i] ** 2.4)
+        thicc.append(reps[i] ** 1.8)
     for i in range(0,len(ind)):
         axarr[int(subInd/numCol), col].scatter(ind[i], weight[i], s=thicc[i], color=colors[cind], alpha=0.7)
         axarr[int(subInd/numCol), col].text(ind[i]+0.2, weight[i], int(reps[i]), fontsize=8, alpha=0.3)
